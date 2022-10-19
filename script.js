@@ -26,5 +26,5 @@ for(var i =0; i<arrayNumbers.length; i++) {
 	finalcosa.push(`${arrayNumbers[i]}. [${arrayTitles[i]}](${arrayURLs[i]})`)
 };
 
-const albumPArtists = [`<b>[${artist_name}](${artist_url}) - [*${album_name}*](${album_url})</b>`, " ", finalcosa.join("\n")]
+const albumPArtists = [`<b>[${artist_name}](${artist_url}) - [*${album_name}*](${album_url})</b> Lyrics and Tracklist`, " ", finalcosa.join("\n")]
 console.log(albumPArtists.join("\n"))
